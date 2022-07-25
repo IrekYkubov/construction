@@ -8,8 +8,8 @@
 }
 
 
-.slider__button-right,
-.slider__button-left {
+.button-right,
+.button-left {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -21,14 +21,14 @@
     justify-content: center;
 }
 
-.slider__button-right {
+.button-right {
     right: -5px;
 }
 
-.slider__button-left {
+.button-left {
     left: -5px;
 }
 
-.slider__container {
+.slider-container {
     position: relative;
 }
