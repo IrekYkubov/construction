@@ -202,3 +202,13 @@ new Swiper('.swiper', {
     prevEl: '.button-left',
   },
 });
+
+$('.acc__list').accordion({
+  active: true,
+  collapsible: true,
+  heightStyle: 'content',
+  icons: {
+    header: 'acc__accord',
+    activeHeader: 'acc__accord acc__accord-active'
+  }
+});
